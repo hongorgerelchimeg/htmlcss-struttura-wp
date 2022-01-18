@@ -7,11 +7,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px 5vw;
 } 
 h1 {
-    font-size: 2rem;
+    font-size: 1.2em;
     font-family: 'Rubik' , sans-serif;
     font-weight: 500;
     line-height: 1;    
@@ -20,13 +20,14 @@ h2 {
 
 }
 h3 {
-    font-size: 1rem;
+    font-size: 0.8em;
     font-family: 'Roboto' , sans-serif;
     font-weight: 500;
 }
 p {
-    font-size: 0.3rem;
+    font-size: 0.4em;
 }
+/* HEADER */
 .main-header {
     width: 100%;
     height: 10vh;
@@ -38,6 +39,7 @@ section {
 .container {
     width: 100%;
 }
+/* HERO SECTION !dopo cambia height-auto! */
 .hero-image {
     width: 100%;
     height: 100px;
@@ -46,6 +48,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border-radius: 2px;
 }
 .hero-text {
     text-align: left;
